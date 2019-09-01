@@ -47,7 +47,7 @@ public class ArrayString implements StringInterface {
         }else {
             valueChar[0] = '-';
             for (int i = 1 ; i < valueChar.length ; i++){
-                valueChar[i] = (char)(values.get(valueChar.length - i) + '0');
+                valueChar[i] = (char)(values.get(valueChar.length - i - 1) + '0');
             }
         }
         return new ArrayString(valueChar);
@@ -71,9 +71,41 @@ public class ArrayString implements StringInterface {
      * @return
      */
     @Override
-    public char indexOf(char[] target){
+    public int indexOf(char[] target){
+        int sLength = length();
+        int dLength = target.length;
+        int sIndex = 0 , dIndex = 0;
+        int[] next = getNextArray(target);
 
-        return 0;
+        while (sIndex < sLength && dIndex < dLength){
+            if (dIndex == -1 || chars[sIndex] == target[dIndex]){
+                sIndex++;
+                dIndex++;
+            }
+            else {
+                dIndex = next[dIndex];
+            }
+        }
+        if (dIndex == dLength){
+            return sIndex - dLength;
+        }
+        return -1;
+    }
+    private int[] getNextArray(char[] destStr){
+        int[] nextArr = new int[destStr.length];
+        nextArr[0] = -1;
+        int k = -1,j = 0;
+        while (j < destStr.length - 1){
+            if (k == -1 || (destStr[j] == destStr[k])){
+                ++k;
+                ++j;
+                nextArr[j] = k;
+            }
+            else {
+                k = nextArr[k];
+            }
+        }
+        return  nextArr;
     }
 
     @Override

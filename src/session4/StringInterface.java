@@ -26,7 +26,7 @@ public interface StringInterface {
      * @param target
      * @return
      */
-    char indexOf(char[] target);
+    int indexOf(char[] target);
 
 
     /**
