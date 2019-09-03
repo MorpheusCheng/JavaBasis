@@ -89,7 +89,7 @@ public interface Stack {
 7.描述为什么 String 是一个不可变的类，以及是怎么实现不可变的。
 ## session5
 熟练掌握 Hash 原理。
-###学习资料：
+### 学习资料：
 - https://www.jianshu.com/p/bba9b61b80e7 什么是 Hash 函数
 - https://www.cnblogs.com/williamjie/p/9377028.html 解决 Hash 碰撞的方案
 - https://www.cnblogs.com/dijia478/p/8006713.html JDK 1.7中 HashMap 的实现原理
