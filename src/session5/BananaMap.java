@@ -44,7 +44,7 @@ public abstract class BananaMap<K,V> {
      * @param key
      * @return
      */
-    abstract V put(K key, V value);
+    abstract boolean put(K key, V value);
 
     /**
      * 移除某个值
