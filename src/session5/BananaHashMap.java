@@ -54,12 +54,7 @@ public class BananaHashMap<K,V> extends BananaMap<K,V> {
 
     private static final int hash(Object key){
         int h;
-        if (key == null){
-            return 0;
-        }else {
-            h = key.hashCode();
-            return 1;
-        }
+        return (key == null) ? 0 : (h = key.hashCode()) ^ (h >>> 16);
     }
 
     @Override
