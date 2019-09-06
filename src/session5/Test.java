@@ -18,12 +18,16 @@ public class Test {
         map.put("D","D");
         System.out.println(map.size());
         System.out.println(map.get("A"));
-        map.remove("A");
-        //System.out.println(map.containsKey("A"));
-        map.remove("A");
-        map.remove("B");
-        map.remove("C");
-        map.remove("D");
+        try {
+            map.remove("A");
+            //System.out.println(map.containsKey("A"));
+            map.remove("A");
+            map.remove("B");
+            map.remove("C");
+            map.remove("D");
+        }catch (RuntimeException e){
+            e.printStackTrace();
+        }
         System.out.println(map.get("A"));
         System.out.println(map.size());
     }
