@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d53b9aee-a159-4be6-afbf-bb5ea4411973" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/session5/BananaBitMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/session5/BananaBitMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/session5/BananaBloomFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/session5/BananaBloomFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/session5/CountingInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/session5/CountingInterface.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,8 +21,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/session5/CountingInterface.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+            <state relative-caret-position="231">
+              <caret line="7" column="39" lean-forward="true" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -35,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/session5/BananaBitMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="52" column="20" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
+            <state relative-caret-position="198">
+              <caret line="21" column="34" lean-forward="true" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
               <folding>
                 <element signature="e#235#236#0" expanded="true" />
                 <element signature="e#254#255#0" expanded="true" />
@@ -49,7 +50,22 @@
                 <element signature="e#728#729#0" expanded="true" />
                 <element signature="e#770#771#0" expanded="true" />
                 <element signature="e#853#854#0" expanded="true" />
-                <element signature="e#1099#1100#0" expanded="true" />
+                <element signature="e#1063#1064#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/session5/BananaBloomFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="446">
+              <caret line="74" column="8" selection-start-line="74" selection-start-column="8" selection-end-line="74" selection-end-column="8" />
+              <folding>
+                <element signature="e#321#322#0" expanded="true" />
+                <element signature="e#340#341#0" expanded="true" />
+                <element signature="e#929#930#0" expanded="true" />
+                <element signature="e#953#954#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -64,8 +80,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/session5/Test.java" />
-        <option value="$PROJECT_DIR$/src/session5/CountingInterface.java" />
         <option value="$PROJECT_DIR$/src/session5/BananaBitMap.java" />
+        <option value="$PROJECT_DIR$/src/session5/CountingInterface.java" />
+        <option value="$PROJECT_DIR$/src/session5/BananaBloomFilter.java" />
       </list>
     </option>
   </component>
@@ -126,9 +143,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BananaBitMap">
+  <component name="RunManager" selected="Application.BananaBloomFilter">
     <configuration name="BananaBitMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="session5.BananaBitMap" />
+      <module name="JavaBasis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="session5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BananaBloomFilter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="session5.BananaBloomFilter" />
       <module name="JavaBasis" />
       <extension name="coverage">
         <pattern>
@@ -155,6 +185,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BananaBloomFilter" />
         <item itemvalue="Application.BananaBitMap" />
         <item itemvalue="Application.Test" />
       </list>
@@ -170,12 +201,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1567754559057</updated>
-      <workItem from="1567754589278" duration="8753000" />
+      <workItem from="1567754589278" duration="14072000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11430000" />
+    <option name="totallyTimeSpent" value="16749000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -190,7 +221,7 @@
     <frame x="-9" y="-9" width="1618" height="870" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15932642" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15932642" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -199,7 +230,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4581498" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.49779737" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -207,7 +238,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.42143905" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.43612334" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.14243759" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.13069016" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -228,13 +259,6 @@
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2475" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/session5/BananaMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1155">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/session5/BananaHashMap.java">
@@ -284,20 +308,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/session5/BananaBloomFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/session5/CountingInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/session5/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
@@ -305,10 +315,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/session5/BananaMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-759">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/session5/BananaBitMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="52" column="20" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
+        <state relative-caret-position="198">
+          <caret line="21" column="34" lean-forward="true" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
           <folding>
             <element signature="e#235#236#0" expanded="true" />
             <element signature="e#254#255#0" expanded="true" />
@@ -318,7 +335,27 @@
             <element signature="e#728#729#0" expanded="true" />
             <element signature="e#770#771#0" expanded="true" />
             <element signature="e#853#854#0" expanded="true" />
-            <element signature="e#1099#1100#0" expanded="true" />
+            <element signature="e#1063#1064#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/session5/CountingInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="7" column="39" lean-forward="true" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/session5/BananaBloomFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="74" column="8" selection-start-line="74" selection-start-column="8" selection-end-line="74" selection-end-column="8" />
+          <folding>
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#929#930#0" expanded="true" />
+            <element signature="e#953#954#0" expanded="true" />
           </folding>
         </state>
       </provider>
