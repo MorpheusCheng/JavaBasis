@@ -1,10 +1,11 @@
 package session5;
 
+
 /**
  * 去重统计的 BitMap
- * @param <Integer>
+ *
  */
-public class BananaBitMap<Integer> implements CountingInterface<Integer>{
+public class BananaBitMap implements CountingInterface<Integer>{
     private byte[] bits;
     private int size;
     private int capacity;
@@ -19,13 +20,13 @@ public class BananaBitMap<Integer> implements CountingInterface<Integer>{
     }
     @Override
     public void add(Integer key) {
-        if ((int)key > capacity){
+        if (key > capacity - 1){
             throw new ArrayIndexOutOfBoundsException("key超过bitmap范围");
         }
         if (contains(key)){
             return;
         }
-        bits[getIndex((int)key)] |= 1 << getPosition((int)key);
+        bits[getIndex(key)] |= 1 << getPosition(key);
         size++;
     }
     public int getIndex(int num){
@@ -34,8 +35,8 @@ public class BananaBitMap<Integer> implements CountingInterface<Integer>{
     public int getPosition(int num){
         return num & 0x07;
     }
-    public boolean contains(Integer key){
-        return (bits[getIndex((int)key)] & 1 << getPosition((int)key)) != 0;
+    public boolean contains(int key){
+        return (bits[getIndex(key)] & 1 << getPosition(key)) != 0;
     }
     @Override
     public int size() {
@@ -48,7 +49,8 @@ public class BananaBitMap<Integer> implements CountingInterface<Integer>{
         bitMap.add(7);
         System.out.println(bitMap.size());
         System.out.println(bitMap.contains(7));
-        bitMap.add(10);
+        bitMap.add(20);
+        System.out.println(bitMap.size());
     }
 
 }
