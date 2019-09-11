@@ -20,9 +20,6 @@ public class BananaBitMap implements CountingInterface<Integer>{
     }
     @Override
     public void add(Integer key) {
-        if (key > capacity - 1){
-            throw new ArrayIndexOutOfBoundsException("key超过bitmap范围");
-        }
         if (contains(key)){
             return;
         }
@@ -30,7 +27,7 @@ public class BananaBitMap implements CountingInterface<Integer>{
         size++;
     }
     public int getIndex(int num){
-        return num >> 3;
+        return num >> capacity;
     }
     public int getPosition(int num){
         return num & 0x07;
@@ -51,6 +48,8 @@ public class BananaBitMap implements CountingInterface<Integer>{
         System.out.println(bitMap.contains(7));
         bitMap.add(20);
         System.out.println(bitMap.size());
+        System.out.println(bitMap.contains(20));
+        System.out.println(bitMap.contains(65));
     }
 
 }
