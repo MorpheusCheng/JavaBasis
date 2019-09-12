@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81c29a7d-03cb-4baa-ba28-ce26de6de113" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/session5/NewBananaBitMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/session5/BananaBitMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/session5/BananaBitMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,56 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/session5/CountingInterface.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
+            <state relative-caret-position="154">
               <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/session5/BananaBitMap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-386">
-              <caret line="25" column="53" lean-forward="true" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
-              <folding>
-                <element signature="e#261#262#0" expanded="true" />
-                <element signature="e#299#300#0" expanded="true" />
-                <element signature="e#786#787#0" expanded="true" />
-                <element signature="e#817#818#0" expanded="true" />
-                <element signature="e#854#855#0" expanded="true" />
-                <element signature="e#887#888#0" expanded="true" />
-                <element signature="e#925#926#0" expanded="true" />
-                <element signature="e#998#999#0" expanded="true" />
-                <element signature="e#1036#1037#0" expanded="true" />
-                <element signature="e#1063#1064#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/session5/NewBananaBitMap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-480">
-              <caret line="38" column="32" lean-forward="true" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#411#412#0" expanded="true" />
-                <element signature="e#433#434#0" expanded="true" />
-                <element signature="e#491#492#0" expanded="true" />
-                <element signature="e#513#514#0" expanded="true" />
-                <element signature="e#721#722#0" expanded="true" />
-                <element signature="e#751#752#0" expanded="true" />
-                <element signature="e#811#812#0" expanded="true" />
-                <element signature="e#835#836#0" expanded="true" />
-                <element signature="e#1719#1720#0" expanded="true" />
-                <element signature="e#1746#1747#0" expanded="true" />
-                <element signature="e#414#415#0" expanded="true" />
-                <element signature="e#448#449#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -133,10 +87,11 @@
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/src/session5/NewBananaBitMap.java" />
         <option value="$PROJECT_DIR$/src/session5/BananaBitMap.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-12" />
     <option name="y" value="288" />
     <option name="width" value="1122" />
@@ -253,12 +208,12 @@
       <option name="presentableId" value="Default" />
       <updated>1567754559057</updated>
       <workItem from="1567754589278" duration="14072000" />
-      <workItem from="1568103674419" duration="3406000" />
+      <workItem from="1568103674419" duration="7576000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22472000" />
+    <option name="totallyTimeSpent" value="26642000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -282,13 +237,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.49779737" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34315425" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32892805" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.42143905" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.42114386" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.05199307" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
@@ -316,14 +271,6 @@
             <element signature="e#219#220#0" expanded="true" />
             <element signature="e#251#252#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-3105" />
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -356,13 +303,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/session5/BananaBloomFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1419">
-          <caret line="74" column="8" selection-start-line="74" selection-start-column="8" selection-end-line="74" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -402,16 +342,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/session5/CountingInterface.java">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="249">
+            <caret line="121" column="10" lean-forward="true" selection-start-line="121" selection-start-column="10" selection-end-line="121" selection-end-column="10" />
+            <folding>
+              <element signature="e#117#118#0" expanded="true" />
+              <element signature="e#135#136#0" expanded="true" />
+              <element signature="e#174#175#0" expanded="true" />
+              <element signature="e#189#190#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/session5/BananaBloomFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+        <state relative-caret-position="-1736">
+          <caret line="7" column="66" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/session5/NewBananaBitMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-480">
+        <state relative-caret-position="-416">
           <caret line="38" column="32" lean-forward="true" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -433,8 +389,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/session5/BananaBitMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-386">
-          <caret line="25" column="53" lean-forward="true" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
+        <state relative-caret-position="184">
+          <caret line="51" column="48" lean-forward="true" selection-start-line="51" selection-start-column="48" selection-end-line="51" selection-end-column="48" />
           <folding>
             <element signature="e#261#262#0" expanded="true" />
             <element signature="e#299#300#0" expanded="true" />
@@ -447,6 +403,13 @@
             <element signature="e#1036#1037#0" expanded="true" />
             <element signature="e#1063#1064#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/session5/CountingInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
         </state>
       </provider>
     </entry>
