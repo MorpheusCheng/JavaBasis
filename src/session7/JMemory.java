@@ -9,6 +9,7 @@ public class JMemory {
     private int gcCount;
     private boolean isMark;
     private Object object;
+    private String name;
 
     public int getGcCount(){
         return gcCount;
@@ -32,5 +33,13 @@ public class JMemory {
 
     public void setMark(boolean mark) {
         isMark = mark;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 }
