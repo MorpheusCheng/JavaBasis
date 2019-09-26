@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d53b9aee-a159-4be6-afbf-bb5ea4411973" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/session7/newJVM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/UsingStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/session7/JMemory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasis/session7/JMemory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/session7/JVM.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasis/session7/JVM.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasis/session7/TestJVM.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasis/session7/TestJVM.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/session7/JMemory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/session7/JMemory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/session7/JVM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/session7/JVM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/session7/TestJVM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/session7/TestJVM.java" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,21 +20,9 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/session7/JMemory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1201">
-              <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="25" />
+            <state relative-caret-position="630">
+              <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
               <folding>
-                <element signature="e#212#213#0" expanded="true" />
-                <element signature="e#241#242#0" expanded="true" />
-                <element signature="e#285#286#0" expanded="true" />
-                <element signature="e#323#324#0" expanded="true" />
-                <element signature="e#356#357#0" expanded="true" />
-                <element signature="e#385#386#0" expanded="true" />
-                <element signature="e#429#430#0" expanded="true" />
-                <element signature="e#465#466#0" expanded="true" />
-                <element signature="e#496#497#0" expanded="true" />
-                <element signature="e#525#526#0" expanded="true" />
-                <element signature="e#566#567#0" expanded="true" />
-                <element signature="e#595#596#0" expanded="true" />
                 <element signature="e#647#648#0" expanded="true" />
                 <element signature="e#674#675#0" expanded="true" />
                 <element signature="e#714#715#0" expanded="true" />
@@ -51,39 +35,24 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/session7/JVM.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="89" column="52" lean-forward="true" selection-start-line="89" selection-start-column="52" selection-end-line="89" selection-end-column="52" />
+            <state relative-caret-position="1270">
+              <caret line="150" column="13" lean-forward="true" selection-start-line="150" selection-start-column="13" selection-end-line="150" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#979#995#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/session7/newJVM.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="86">
-              <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#621#637#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/session7/TestJVM.java">
+        <entry file="file://$PROJECT_DIR$/src/algorithm/UsingStack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="20" column="55" lean-forward="true" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
+            <state relative-caret-position="93">
+              <caret line="81" column="38" lean-forward="true" selection-start-line="81" selection-start-column="38" selection-end-line="81" selection-end-column="38" />
               <folding>
-                <element signature="e#671#672#0" expanded="true" />
-                <element signature="e#702#703#0" expanded="true" />
-                <element signature="e#749#750#0" expanded="true" />
-                <element signature="e#781#782#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#387#395#0" expanded="true" />
+                <element signature="e#423#431#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -115,10 +84,11 @@
         <option value="$PROJECT_DIR$/src/session7/JMemory.java" />
         <option value="$PROJECT_DIR$/src/session7/TestJVM.java" />
         <option value="$PROJECT_DIR$/src/session7/newJVM.java" />
+        <option value="$PROJECT_DIR$/src/algorithm/UsingStack.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-9" />
     <option name="y" value="-9" />
     <option name="width" value="1122" />
@@ -132,8 +102,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -150,16 +118,20 @@
               <item name="JavaBasis" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaBasis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="session7" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="E:/ChromeDownload/guava-19.0.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
@@ -177,7 +149,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestJVM">
+  <component name="RunManager" selected="Application.UsingStack">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="session6.Client" />
       <module name="JavaBasis" />
@@ -217,8 +189,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UsingStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.UsingStack" />
+      <module name="JavaBasis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UsingStack" />
         <item itemvalue="Application.TestJVM" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.NetWorkCenter" />
@@ -229,16 +215,24 @@
     <configuration />
   </component>
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d53b9aee-a159-4be6-afbf-bb5ea4411973" name="Default Changelist" comment="" />
+      <created>1569486674111</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569486674111</updated>
+      <workItem from="1569486710579" duration="7226000" />
+    </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63970000" />
+    <option name="totallyTimeSpent" value="73257000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17113733" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17328326" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -247,7 +241,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946353" visible="true" weight="0.24622531" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946353" visible="true" weight="0.2857143" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -255,7 +249,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.42143905" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49946353" weight="0.04413473" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49946353" weight="0.5923345" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5005365" side_tool="true" weight="0.31126598" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.13069016" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -268,6 +262,9 @@
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
@@ -386,23 +383,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/session7/TestJVM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="33" column="44" lean-forward="true" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
+          <folding>
+            <element signature="e#702#703#0" expanded="true" />
+            <element signature="e#749#750#0" expanded="true" />
+            <element signature="e#781#782#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/session7/newJVM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-120">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#621#637#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/session7/JMemory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1201">
-          <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="25" />
+        <state relative-caret-position="630">
+          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
           <folding>
-            <element signature="e#212#213#0" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#285#286#0" expanded="true" />
-            <element signature="e#323#324#0" expanded="true" />
-            <element signature="e#356#357#0" expanded="true" />
-            <element signature="e#385#386#0" expanded="true" />
-            <element signature="e#429#430#0" expanded="true" />
-            <element signature="e#465#466#0" expanded="true" />
-            <element signature="e#496#497#0" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
-            <element signature="e#566#567#0" expanded="true" />
-            <element signature="e#595#596#0" expanded="true" />
             <element signature="e#647#648#0" expanded="true" />
             <element signature="e#674#675#0" expanded="true" />
             <element signature="e#714#715#0" expanded="true" />
@@ -413,35 +421,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/session7/JVM.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="89" column="52" lean-forward="true" selection-start-line="89" selection-start-column="52" selection-end-line="89" selection-end-column="52" />
+        <state relative-caret-position="1270">
+          <caret line="150" column="13" lean-forward="true" selection-start-line="150" selection-start-column="13" selection-end-line="150" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#979#995#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/session7/newJVM.java">
+    <entry file="file://$PROJECT_DIR$/src/algorithm/UsingStack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+        <state relative-caret-position="93">
+          <caret line="81" column="38" lean-forward="true" selection-start-line="81" selection-start-column="38" selection-end-line="81" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#621#637#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/session7/TestJVM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="20" column="55" lean-forward="true" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
-          <folding>
-            <element signature="e#671#672#0" expanded="true" />
-            <element signature="e#702#703#0" expanded="true" />
-            <element signature="e#749#750#0" expanded="true" />
-            <element signature="e#781#782#0" expanded="true" />
+            <element signature="e#387#395#0" expanded="true" />
+            <element signature="e#423#431#0" expanded="true" />
           </folding>
         </state>
       </provider>
